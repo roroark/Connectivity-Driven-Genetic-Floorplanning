@@ -8,7 +8,7 @@ In general, floorplanning is an NP problem and requires exhaustive search to fin
 
 ## Compile
 
-Download all files into a folder, navigate to this folder and then compile "efp.cpp".
+Download repository into a folder, navigate to this folder and then compile "efp.cpp".<br>
 All dependencies are inluded.
 
 ## Usage
