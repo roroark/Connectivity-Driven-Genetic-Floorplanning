@@ -13,7 +13,7 @@ All dependencies are inluded.
 
 ## Usage
 
-/path/to/efp.o <PARTITION_AREA_FILE> <PARTITION_CONNECTIVITY_FILE> <OUTPUT_FILE>
+`/path/to/efp.o <PARTITION_AREA_FILE> <PARTITION_CONNECTIVITY_FILE> <OUTPUT_FILE>`
  
 ### Format of <PARTITION_AREA_FILE>
  
