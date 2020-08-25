@@ -1,10 +1,10 @@
 ## Connectivity Driven Genetic Floorplanning With Hard Macro Constraints
 
-This repository contains code to automatically perform the [floorplanning](https://en.wikipedia.org/wiki/Floorplan_(microelectronics)) step of VLSI physical design, where we have to assign a shape and position to mutiple partitions (or sub-designs) having some soft-area which fit in any shape, and possibly  multiple hard macros (which fixed shape) constraining minimum dimensions. Partitions can interact with some paritions more than others (by have more pins/connections on an interface).
+This repository contains code to automatically perform the [floorplanning](https://en.wikipedia.org/wiki/Floorplan_(microelectronics)) step of VLSI physical design, where we have to assign a shape and position to mutiple partitions (or sub-designs) having some soft-area (which can accomodate any shape), and possibly  multiple hard macros (which fixed shape) constraining minimum dimensions. Partitions can interact with some paritions more than others (by have more pins/connections on an interface).
 
 <img src="https://user-images.githubusercontent.com/18059416/91009876-1cc03080-e5ff-11ea-8fcd-497f843386a2.png" width="25%">
 
-In general, floorplanning is an NP problem and requires exhaustive search to find the best solution. Genetic algorithms are one way to get a 'good enough' solution fast. Polish notation is used to encode floorplan information, however, which restricts us to only explore 'slicing floorplan' solutions. Floorplans where partitions that heavily interact with each other are placed beside each other are considered fitter and floorplans where partitions violating hard-macro requirements.
+In general, floorplanning is an NP problem and requires exhaustive search to find the best solution. Genetic algorithms are one way to get a 'good enough' solution fast. Polish notation is used to encode floorplan information, however, which restricts us to only explore rectangular, slicing floorplan solutions. Floorplans where partitions that heavily interact with each other are placed beside each other are considered fitter and floorplans where partitions violating hard-macro requirements.
 
 ## Compile
 
